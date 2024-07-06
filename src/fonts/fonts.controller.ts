@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post } from "@nestjs/common"
+import { Body, Controller, Delete, Get, NotFoundException, Param, Patch, Post } from "@nestjs/common"
 import { FontsService } from "./fonts.service"
 import { CreateFontDto } from "./dto/create-font.dto"
 import { UpdateFontDto } from "./dto/update-font.dto"
@@ -20,7 +20,11 @@ export class FontsController {
 
     @Get(":family")
     findOne(@Param("family") family: string) {
-        return this.fontsService.findOne(family)
+        const font = this.fontsService.findOne(family)
+        if (!font) {
+            throw new NotFoundException("Invalid font id")
+        }
+        return font
     }
 
     @Patch(":id")
