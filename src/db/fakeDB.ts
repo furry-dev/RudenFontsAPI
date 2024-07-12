@@ -163,7 +163,7 @@ export const FontsDatabase: Font[] = [
         categories: ["Bubble"],
         langs: ["rus", "eng", "ukr"],
         files: {
-            "Regular": "/fonts/v_CCMeanwhile/v_CCMeanwhile-Regular.ttf"
+            "Regular": "/fonts/v_CCMeanWhile/v_CCMeanwhile-Regular.ttf"
         },
         sizeCoeff: 0.85,
         freeCommercial: false
@@ -288,7 +288,7 @@ export const FontsDatabase: Font[] = [
         "categories": ["Sound"],
         "langs": ["rus", "eng", "ukr"],
         "files": {
-            "Regular": "/fonts/sound/BLACK_DIAMOND.OTF"
+            "Regular": "/fonts/sound/BLACK DIAMOND.OTF"
         },
         "sizeCoeff": 1,
         "freeCommercial": false
@@ -371,12 +371,12 @@ export const FontsDatabase: Font[] = [
         "freeCommercial": false
     },
     {
-        "_id": "MANGATEMPLE",
-        "family": "MANGATEMPLE",
+        "_id": "MangaTemple",
+        "family": "MangaTemple",
         "categories": ["Sound"],
         "langs": ["rus", "eng", "ukr"],
         "files": {
-            "Regular": "/fonts/sound/MANGATEMPLE (КРИК).TTF"
+            "Regular": "/fonts/sound/MangaTemple.ttf"
         },
         "sizeCoeff": 1,
         "freeCommercial": false
@@ -587,7 +587,7 @@ export const FontsDatabase: Font[] = [
         "files": {
             "Regular": "/fonts/sound/V_CCCOMICRAFT_DIAMOND_V1.0.TTF"
         },
-        "sizeCoeff": 1,
+        "sizeCoeff": 1.3,
         "freeCommercial": false
     },
     {
