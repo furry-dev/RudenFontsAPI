@@ -158,12 +158,12 @@ export const FontsDatabase: Font[] = [
         freeCommercial: true
     },
     {
-        _id: "v_CCMeanwhile",
-        family: "v_CCMeanwhile",
+        _id: "v_CCMeanWhile",
+        family: "v_CCMeanWhile",
         categories: ["Bubble"],
         langs: ["rus", "eng", "ukr"],
         files: {
-            "Regular": "/fonts/v_CCMeanWhile/v_CCMeanwhile-Regular.ttf"
+            "Regular": "/fonts/v_CCMeanWhile/v_CCMeanWhile-Regular.ttf"
         },
         sizeCoeff: 0.85,
         freeCommercial: false
