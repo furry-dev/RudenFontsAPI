@@ -155,7 +155,7 @@ export const FontsDatabase: Font[] = [
             "LightItalic": "/fonts/TroubleSide/TroubleSide-LightItalic.ttf"
         },
         sizeCoeff: 0.80,
-        freeCommercial: false
+        freeCommercial: true
     },
     {
         _id: "v_CCMeanwhile",
